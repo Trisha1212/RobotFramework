@@ -31,8 +31,7 @@
 
 ## How to Run ?
 ```
-robot test.robot (robot filename.robot)
+robot -d results test.robot
 ```
-
-## What next ?
-- Run test on Mobile using Appium & Robotframework
+- d results : Create a folder name result and store all the result inside same 
+test.robot : file name of test cases 
