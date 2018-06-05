@@ -11,7 +11,7 @@
 ## Test Scenario :
 - Browser - Chrome
 1. Open Google.com
-2. Search Eficode Devops
+2. Search for Devops
 3. Verify the results.
 
 
@@ -34,4 +34,4 @@
 robot -d results test.robot
 ```
 - d results : Create a folder name result and store all the result inside same 
-test.robot : file name of test cases 
+- test.robot : file name of test cases 
