@@ -1,4 +1,4 @@
-# Guide for SetUp Run 1st Test RobotFramework
+# Guide to SetUp & Run Test using RobotFramework
  - Setup RobotFramework on OSX
  - Run First Testcases using robotframework
 
@@ -34,3 +34,5 @@
 robot test.robot (robot filename.robot)
 ```
 
+## What next ?
+- Run test on Mobile using Appium & Robotframework
