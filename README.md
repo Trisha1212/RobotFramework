@@ -35,3 +35,24 @@ robot -d results test.robot
 ```
 - d results : Create a folder name result and store all the result inside same 
 - test.robot : file name of test cases 
+
+## How to set up on Mobile Device ?
+- Install Homebrew 
+- Install node - Brew install node
+- Check the node version node—v, nom —v
+- Install appium server  : npm install -g appium 
+- Install wd: What is wd ? : WebDriver protocol and node exposing the functionality : npm install wd : npm --proxy (proxy address )install wd
+- Install appium doctor : npm install -g nappium-doctor
+- Appium desktop client : Appium.io
+- Install jdk
+- Install carthage : npm install carthage
+- Set $ANDROID_HOME and $JAVA_HOME as path variable
+```
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+export PATH=$ANDROID_HOME/tools:$PATH
+export ANDROID_HOME=/Users/Shared/Android/sdk
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH=$JAVA_HOME/bin:$PATH
+```
+- pip install — upgrade robotframework-androidlibrary
+- pip install robotframework-appiumlibrary
